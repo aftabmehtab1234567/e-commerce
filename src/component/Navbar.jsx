@@ -6,7 +6,7 @@ import Cart from './Cart';
 export const Navbar = () => {
   return (
     <div className="navbar text-bg-dark">
-      <div className="Link d-flex justify-content-end">
+      <div className="Link text-bg-dark">
         <Link to="/">Shop</Link>
         <Link to="/Cart">
           <ShoppingCart size={40}/>
