@@ -14,7 +14,10 @@ const Map = () => {
         data.map((val) =>  {
           return (
             
-           <Shop name={val.name} img={val.imgs}/>
+           <Shop id={val.id} name={val.name} img={val.imgs} />
+          
+
+           
            
           )
           
