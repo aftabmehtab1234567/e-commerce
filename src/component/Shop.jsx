@@ -8,7 +8,7 @@ const Shop = (props) => {
   };
 
   return (
-    <div className="card d-inline-flex text-center mt-5 mx-5 shadow p-3 mb-5 bg-white rounded" style={{ width: '18rem' }}>
+    <div className="container card d-inline-flex text-center mt-5 mx-5 shadow p-3 mb-5 bg-white rounded" style={{ width: '18rem' }}>
       <img src={props.img} className="card-img-top" alt="..." />
       <div className="card-body">
         <h5 className="card-title fs-1">{props.name}</h5>
